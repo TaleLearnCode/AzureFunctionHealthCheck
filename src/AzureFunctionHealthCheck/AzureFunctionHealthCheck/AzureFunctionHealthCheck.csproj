@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <AssemblyName>TaleLearnCode.AzureFunctionHealthCheck</AssemblyName>
+    <RootNamespace>TaleLearnCode.AzureFunctionHealthCheck</RootNamespace>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>0.0.0-pre</Version>
+    <Authors>TaleLearnCode</Authors>
+    <Company>Green Events &amp; Technology, LLC.</Company>
+    <Product>Azure Functions HealthCheck</Product>
+    <Description>Provides the mechanism to allow Azure Functions to use Microsoft HealthCheck diagnostics.</Description>
+    <Copyright>Copyright ©2021 by Green Events &amp; Technology, LLC.  All rights reserved.</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/TaleLearnCode/AzureFunctionHealthCheck</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/TaleLearnCode/AzureFunctionHealthCheck</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>Azure Functions HealthCheck</PackageTags>
+    <PackageReleaseNotes>Initial beta release</PackageReleaseNotes>
+    <NeutralLanguage>en-US</NeutralLanguage>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Diagnostics.HealthChecks" Version="5.0.5" />
+  </ItemGroup>
+  
+</Project>
